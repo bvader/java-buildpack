@@ -38,7 +38,8 @@ cf cups my-elastic-apm-service -p '{"server_urls":"https://my-apm-server:8200","
 Example of a configuration with additional configuration parameters:
 
 ```
-cf cups my-elastic-apm-service -p '{"server_urls":"https://apm.bvader.net:8200","secret_token":"","server_timeout":"10s","environment":"production"}'```
+cf cups my-elastic-apm-service -p '{"server_urls":"https://apm.bvader.net:8200","secret_token":"","server_timeout":"10s","environment":"production"}'
+```
 
 Bind your application to the service using:
 
