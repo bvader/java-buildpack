@@ -63,7 +63,7 @@ module JavaBuildpack
 
       private
 
-      FILTER = /elasticapm/
+      FILTER = /elastic[-]?apm/
 
       BASE_KEY = 'elastic.apm.'
 
