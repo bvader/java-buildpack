@@ -31,11 +31,14 @@ Users must provide their own Elastic APM service. A user-provided Elastic APM se
 
 Example of a minimal configuration:
 
-`cf cups my-elastic-apm-service -p '{"server_urls":"https://my-apm-server:8200","secret_token":"my-secret-token"}'`
+```
+cf cups my-elastic-apm-service -p '{"server_urls":"https://my-apm-server:8200","secret_token":"my-secret-token"}'
+```
 
 Example of a configuration with additional configuration parameters:
 
-`cf cups my-elastic-apm-service -p '{"server_urls":"https://apm.bvader.net:8200","secret_token":"","server_timeout":"10s","environment":"production"}'`
+```
+cf cups my-elastic-apm-service -p '{"server_urls":"https://apm.bvader.net:8200","secret_token":"","server_timeout":"10s","environment":"production"}'```
 
 Bind your application to the service using:
 
